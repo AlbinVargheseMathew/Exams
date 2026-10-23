@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(227, 248, 248);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product_layout{
+    margin: 100px;
+    display: inline-block;
+}
+
+.product_images{
+    border-radius: 10px;
+}
+
+.product_details{
+    padding: 15px;
+    line-height: 1.6;
+    background-color: rgb(233, 238, 243);
+}
+
+.product_details h3{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 10px;
+}
+
+.product_details p{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.buttons{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_wishlist{
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+.product_wishlist:hover{
+    background-color: rgb(177, 172, 172);
+}
+
+.product_cart{
+    background-color: rgb(138, 73, 224);
+    border-radius: 10px;
+    flex: 1
+}
+.product_cart:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
